@@ -18,11 +18,8 @@ export default function Page() {
         <p
       className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
     >
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+            <strong>Welcome to B Frames</strong> You have too many options to choose from,{' '}
+            We are leading frame makers since 1999.
           </p>
           <Link
             href="/login"
@@ -31,7 +28,7 @@ export default function Page() {
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
-        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
+        {/* <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           <Image
             src="/hero-desktop.png"
             width={1000}
@@ -46,7 +43,7 @@ export default function Page() {
             className="block md:hidden"
             alt="Screenshot of the dashboard project showing mobile version"
           />
-        </div>
+        </div> */}
       </div>
     </main>
   );
